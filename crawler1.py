@@ -1,5 +1,5 @@
 import urllib.request
-response = urllib.request.urlopen('https://www.yahoo.co.jp/')
+response = urllib.request.urlopen('https://news.yahoo.co.jp/')
 
 html = response.read()
 print(html.decode('utf-8'))
