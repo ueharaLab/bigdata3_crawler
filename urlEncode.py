@@ -1,4 +1,5 @@
 import urllib.parse
-inputWord='うどん'
+
+inputWord='ラーメン'
 keyWord = urllib.parse.quote(inputWord)
 print(keyWord)
