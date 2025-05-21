@@ -26,3 +26,4 @@ print(html.decode('utf-8'))
 txtFile_html = open("homepage.html",'w',newline='',encoding='utf-8')
 txtFile_html.write(html.decode('utf-8'))
 ```
+### 演習3.  演習2.のプログラムについて、コマンドラインからキーワードを繰り返し入力する都度URL encodeした文字列で該当のページを取得するプログラムを作成せよ。なお、'q'を入力すると繰り返し入力を終了にするようにせよ。
